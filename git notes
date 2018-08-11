@@ -1,0 +1,24 @@
+open folder -> open gitbash
+git init
+git remote add origin "git url"
+git pull origin master --- to load remote files to local.
+
+create branch in the local:
+
+git checkout -b mfirst
+ 
+    add or update existing files.
+
+git add index.html
+    //indexing index.html to the current branch.
+git commit -m "ur mesage"
+    //it is to save files in current branch.
+
+// in thre remote create new branch(myfirst)
+
+git push --set-upstream origin myfirst
+//it will upload local files into remote myfirst branch.
+
+// create pull request in the remote.
+
+
